@@ -10,3 +10,12 @@ function DNAtoRNA(dna) {
       return (rna)
     }
   }
+
+
+// OR i could just used replace xD ==> i should learn regex a bit. seems really useful
+
+// Answer by colbydauph,
+
+function DNAtoRNA(dna){
+    return dna.replace(/T/g, 'U');
+  }
